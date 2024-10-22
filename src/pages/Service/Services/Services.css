@@ -1,0 +1,6 @@
+.service_page_container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--third-color);
+  padding: 50px 100px;
+}

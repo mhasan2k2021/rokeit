@@ -1,0 +1,10 @@
+.home_page_container {
+  width: 100%;
+  min-height: 700px;
+  background-color: var(--second-color);
+  padding-top: 100px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

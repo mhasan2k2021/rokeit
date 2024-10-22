@@ -1,0 +1,32 @@
+.keen-slider__slide {
+  min-width: 200px; /* Set the width of each slide to 200px */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align logos to the start of the container */
+  margin: 0 auto;
+  overflow-x: auto; /* Enable horizontal scrolling for overflowing logos */
+  overflow-y: hidden; /* Disable vertical scroll */
+  padding: 0 10px; /* Add padding for spacing */
+  white-space: nowrap;
+}
+
+.keen-slider__slide::-webkit-scrollbar {
+  display: none;
+}
+
+.keen-slider__slide img {
+  /* height: 50px; */
+  margin: 0 10px;
+  animation: 1s slider infinite linear;
+  width: 70px;
+}
+
+/* @keyframes slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+} */

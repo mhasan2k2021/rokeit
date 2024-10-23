@@ -1,0 +1,69 @@
+.footer_section_container {
+  width: 100%;
+  min-height: 300px;
+  background-color: var(--second-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.strategy_input {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.logo_footer {
+  font-size: 32px;
+}
+
+.strategy_input form label {
+  display: block;
+  font-family: var(--font-family);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: var(--third-color);
+}
+
+.strategy_input form select {
+  width: 300px;
+  height: 40px;
+  background: none;
+  border: 1px solid var(--main-color);
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 8px 12px;
+  font-size: 18px;
+  color: var(--third-color);
+}
+
+.strategy_input form option {
+  background-color: var(--main-color);
+}
+
+.strategy_input form button {
+  padding: 8px 12px;
+  background-color: var(--main-color);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--third-color);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.strategy_input form button:hover {
+  background: var(--main-hover);
+}
+
+.footer_menu_list li {
+  color: var(--third-color);
+}

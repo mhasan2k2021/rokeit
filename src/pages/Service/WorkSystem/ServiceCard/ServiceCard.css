@@ -1,0 +1,70 @@
+.service_container {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.icon {
+  width: 80px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.service_container .details h4 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+.service_container .details h4 > svg {
+  font-size: 16px;
+  transform: rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+  display: flex;
+  align-items: center;
+  line-height: 14px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.service_container .details h4:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.service_container .details h4:hover svg {
+  opacity: 1;
+  transform: translateY(0px) translateX(5px) rotate(45deg);
+}
+
+.service_container .details p {
+  font-size: 12px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: rgb(56, 56, 56);
+  margin-bottom: 15px;
+}
+
+.service_container .details ul {
+  box-sizing: border-box;
+}
+
+.service_container .details ul li {
+  font-size: 14px;
+  font-family: var(--font-family);
+  list-style: none;
+}
+
+.service_container .details ul li::before {
+  content: "•";
+  font-size: 14px;
+  margin-right: 10px;
+  color: var(--main-color);
+}

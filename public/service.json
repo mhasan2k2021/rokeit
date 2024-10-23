@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Strategy Plan",
+    "icon": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1729600269/rokeit/icons/business_dpnfkd.png",
+    "details": "Creating a strategic plan is a critical process for UI/UX design",
+    "list": { "a": "Brand Strategy", "b": "Brand" }
+  },
+  {
+    "name": "Email Marketing",
+    "icon": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1729600270/rokeit/icons/email_1_ce9vr2.png",
+    "details": "Creating a strategic plan is a critical process for UI/UX design",
+    "list": { "a": "Brand Strategy", "b": "Brand" }
+  },
+  {
+    "name": "Content Marketing",
+    "icon": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1729600270/rokeit/icons/seo_pcfxen.png",
+    "details": "Creating a strategic plan is a critical process for UI/UX design",
+    "list": { "a": "Brand Strategy", "b": "Brand" }
+  },
+  {
+    "name": "SEO Optimization",
+    "icon": "https://res.cloudinary.com/dcmgay3nl/image/upload/v1729600270/rokeit/icons/content-strategy_mv2upk.png",
+    "details": "Creating a strategic plan is a critical process for UI/UX design",
+    "list": { "a": "Brand Strategy", "b": "Brand" }
+  }
+]
